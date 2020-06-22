@@ -1,9 +1,6 @@
 package me.seos.hrw;
+
 import com.codingforcookies.armorequip.ArmorEquipEvent;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.attribute.Attribute;
@@ -16,6 +13,9 @@ import org.bukkit.event.player.PlayerGameModeChangeEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class LoreArmorEquip implements Listener {
     private int newHealth;
